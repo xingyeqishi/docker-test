@@ -13,5 +13,4 @@ RUN		source /root/.nvm/nvm.sh && nvm use v0.12.4
 RUN		source /root/.nvm/nvm.sh && nvm install iojs
 
 RUN		apt-get install make
-RUN 		gem install --user-install bundler
 
